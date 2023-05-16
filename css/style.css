@@ -1,0 +1,253 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Audiowide", sans-serif;
+    background-image: url(/images/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+div.outer {
+    color: rgb(90, 84, 84, 0.5);
+}
+
+div.container {
+    color: aliceblue;
+
+}
+
+div#boxleft {
+    position: absolute;
+    display: inline-block;
+    top: 30px;
+    left: 36px;
+    width: 300px;
+
+}
+
+div#boxmid {
+    position: absolute;
+    display: block;
+    background-color: rgb(83, 79, 79, 0.5);
+    top: 30px;
+    left: 800px;
+    width: 33%;
+    padding-left: 83px;
+
+
+}
+
+div#boxright {
+    position: absolute;
+    display: inline-block;
+
+    top: 30px;
+    right: 36px;
+    width: 300px;
+    height: 50px;
+
+}
+
+div#boxmid ul {
+    float: left;
+    padding-left: 81px;
+}
+
+div#boxleft img {
+    position: block;
+    width: 97px;
+    height: 76px;
+    border: 2px solid white;
+    border-radius: 60px;
+
+}
+
+div#boxleft p {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 50px;
+    left: 60px;
+    bottom: 88px;
+}
+
+div#boxright p {
+    font-size: large;
+    position: absolute;
+    left: -135px;
+}
+
+
+div#boxright img {
+
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    bottom: 8px;
+    left: 48px;
+}
+
+div#boxright textarea {
+    display: block;
+    position: absolute;
+    left: 99px;
+    bottom: 14px;
+}
+
+
+div.quote {
+
+    background-color: rgb(240, 233, 233, 0.5);
+    height: 93px;
+    margin-top: 128px;
+    text-align: center;
+}
+
+div.quote p {
+    font-size: 40px;
+
+    color: rgb(42, 35, 41);
+
+    position: absolute;
+    top: 110px;
+
+}
+
+div.boxes {
+    color: rgb(27, 139, 237);
+    background-color: rgb(246, 245, 238);
+    border: 4px solid white;
+    margin: 3px;
+    border-radius: 35px;
+    border: 4px solid yellowgreen;
+
+}
+
+div#box1 {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    margin-top: 170px;
+    margin-left: 91px;
+}
+
+
+div#box2 {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    margin-top: 170px;
+    margin-left: 30px;
+}
+
+div#box3 {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    margin-top: 170px;
+    margin-left: 30px;
+}
+
+div#why h1 {
+    font-size: 68px;
+    display: inline;
+    margin-left: 360px;
+    margin-top: 100px;
+    color: aliceblue;
+}
+
+div.inner {
+    background-color: rgba(19, 106, 172, 0.5);
+    color: azure;
+    font-size: 25px;
+    width: 650px;
+    height: 700px;
+    position: absolute;
+    top: 250px;
+    left: 1500px;
+    padding: 20px;
+    border-radius: 25px;
+
+}
+
+div.form h1 {
+    text-align: center;
+}
+div.form label{
+    padding: 25px;
+}
+ input{
+  size: 75%;
+}
+ #button{
+    background-color: rgb(242, 140, 15);
+    width: 144px;
+    margin-left:250px;
+    height: 45px;
+    border: 1px solid  rgb(242, 140, 15);
+    border-radius: 15px;
+    color: rgb(239, 227, 227);
+    font-size: 29px;
+  }
+div#box1 img{
+    display: block;
+    position: inherit;
+    width: 366px;
+    height: 278px;
+    border: 5px solid yellow;
+    border-radius: 360px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+div#box2 img{
+    display: block;
+    position: inherit;
+    width: 366px;
+    height: 278px;
+    border: 5px solid yellow;
+    border-radius: 360px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+div#box3 img{
+    display: block;
+    position: inherit;
+    width: 366px;
+    height: 278px;
+    border: 5px solid yellow;
+    border-radius: 360px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+div.boxes h1{
+    text-align: center;
+    color: black;
+}
+
+div.last{
+
+background-color: rgb(94, 94, 96,0.5);
+margin-top: 157px;
+text-align: center;
+
+}
+
+div.last h1{
+color: rgb(240, 244, 248,0.5);
+    
+    }
+
+ a{
+    color: white;
+    text-decoration:none;
+}
+a:hover{
+    color: red;
+    background-color: azure;
+    border: 2px solid white;
+}
